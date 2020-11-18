@@ -1,1 +1,1 @@
-# JavaStudy, JavaCode ..etc, Everything related to Java
+# Java Study, Java Code ..etc, Everything related to Java
