@@ -1,1 +1,1 @@
-# Java Study, Java Code ..etc, Everything related to Java
+# 자바 공부한 내용 정리하는 곳
