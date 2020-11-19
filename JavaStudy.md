@@ -42,13 +42,27 @@ Child child = (Child) parent; // 강제 타입 변환
 **객체가 어떤 타입인지 조사할 때 사용(주로 강제 타입 변환 전에 사용)**
 
 ```java
-
+boolean result = 좌향(객체) instanceof 우항(타입)
+    
+public void method(Parent parent) {
+    if(parent instanceof Child) {
+        Child child = (Child) parent;
+    }
+}
 ```
 
+**타입을 확인하지 않고 강제 타입 변환을 시도한다면 ClassCastException 발생, (instanceof으로 해결)**
 
+
+
+## 다형성
+
+**객체 사용 방법은 동일, 실행결과가 다양하게 나오는 성질**
+
+메소드 재정의와 타입 변환을 통해 구현
 
 
 
 # 참고
 
-**<혼자 공부하는 자바> 내용 참고 **
+**<혼자 공부하는 자바 - 상속> 내용 참고 **
